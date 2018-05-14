@@ -1,0 +1,35 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntercomAndroidSdkBase", "IntercomAndroidSdkBase\IntercomAndroidSdkBase.csproj", "{D233FDF0-D934-4C52-BD2F-842FB86ACC2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntercomAndroidSdkFcm", "IntercomAndroidSdkFcm\IntercomAndroidSdkFcm.csproj", "{B9633E0D-3A29-45F6-863C-4762BCFC29B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntercomAndroidSdkComposer", "IntercomAndroidSdkComposer\IntercomAndroidSdkComposer.csproj", "{37B3AE55-265E-4CF1-A4BB-9AAD4019BD67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntercomAndroidSdkComposerGallery", "IntercomAndroidSdkComposerGallery\IntercomAndroidSdkComposerGallery.csproj", "{28A5B842-2D48-4661-B9DE-5033617007DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D233FDF0-D934-4C52-BD2F-842FB86ACC2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D233FDF0-D934-4C52-BD2F-842FB86ACC2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D233FDF0-D934-4C52-BD2F-842FB86ACC2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D233FDF0-D934-4C52-BD2F-842FB86ACC2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9633E0D-3A29-45F6-863C-4762BCFC29B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9633E0D-3A29-45F6-863C-4762BCFC29B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9633E0D-3A29-45F6-863C-4762BCFC29B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9633E0D-3A29-45F6-863C-4762BCFC29B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37B3AE55-265E-4CF1-A4BB-9AAD4019BD67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37B3AE55-265E-4CF1-A4BB-9AAD4019BD67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37B3AE55-265E-4CF1-A4BB-9AAD4019BD67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37B3AE55-265E-4CF1-A4BB-9AAD4019BD67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28A5B842-2D48-4661-B9DE-5033617007DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28A5B842-2D48-4661-B9DE-5033617007DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28A5B842-2D48-4661-B9DE-5033617007DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28A5B842-2D48-4661-B9DE-5033617007DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

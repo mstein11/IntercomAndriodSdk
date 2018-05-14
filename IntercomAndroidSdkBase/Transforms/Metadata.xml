@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+    <remove-node path="/api/package[@name='io.intercom.com.bumptech.glide']" />
+    <remove-node path="/api/package[@name='io.intercom.com.bumptech.glide.request.animation']" />
+    <remove-node path="/api/package[@name='io.intercom.com.bumptech.glide.request.target']" />
+    <remove-node path="/api/package[@name='io.intercom.com.bumptech.glide.load.data']" />
+    <remove-node path="/api/package[@name='io.intercom.com.bumptech.glide.load.model']" />
+    <remove-node path="/api/package[@name='io.intercom.com.bumptech.glide.load.engine']" />
+    <remove-node path="/api/package[@name='io.intercom.com.bumptech.glide.load.engine.executor']" />
+    <remove-node path="/api/package[@name='io.intercom.com.bumptech.glide.load.engine.bitmap_recycle']" />
+    <remove-node path="/api/package[@name='io.intercom.okio']" />
+    <remove-node path="/api/package[@name='io.intercom.com.squareup.otto']" />
+    <!--    <remove-node path="/api/package[@name='io.intercom.android.sdk.nexus']" />-->
+    <remove-node path="/api/package[@name='io.intercom.android.sdk.nexus']/class[@name='NexusClient']" />
+    <remove-node path="/api/package[@name='io.intercom.android.sdk.models']/class[@name='ConversationsResponse']" />
+    <remove-node path="/api/package[@name='io.intercom.android.sdk.models']/class[@name='LinkResponse']" />
+    <remove-node path="/api/package[@name='io.intercom.android.sdk.models']/class[@name='UsersResponse']" />
+    <remove-node path="/api/package[@name='io.intercom.android.sdk.middleware']" />
+    <remove-node path="/api/package[@name='io.intercom.android.sdk.store']" />
+    <remove-node path="/api/package[@name='io.intercom.com.google.gson']" />
+    <remove-node path="/api/package[@name='io.intercom.com.google.gson.internal']" />
+    <remove-node path="/api/package[@name='io.intercom.com.google.gson.internal.bind']" />
+    <remove-node path="/api/package[@name='io.intercom.com.google.gson.internal.bind']" />
+    <remove-node path="/api/package[@name='io.intercom.com.bumptech.glide.load.data.mediastore']/class[@name='ThumbFetcher.ImageThumbnailQuery']" />
+    <remove-node path="/api/package[@name='io.intercom.com.bumptech.glide.request.transition']/class[@name='BitmapTransitionFactory']" />
+    <remove-node path="/api/package[@name='io.intercom.com.bumptech.glide.load.data.mediastore']/class[@name='ThumbFetcher']" />
+    <!--
+    path="/api/package[@name='io.intercom.okio']/class[@name='Buffer']"
+    path="/api/package[@name='io.intercom.okio']/class[@name='ByteString']"
+    path="/api/package[@name='io.intercom.com.bumptech.glide.load.data']/class[@name='FileDescriptorAssetPathFetcher']"
+    path="/api/package[@name='io.intercom.com.bumptech.glide.load.data']/class[@name='FileDescriptorLocalUriFetcher']"
+    path="/api/package[@name='io.intercom.okio']/class[@name='Options']"
+    path="/api/package[@name='io.intercom.com.bumptech.glide.load.data.mediastore']/class[@name='ThumbFetcher']"
+    path="/api/package[@name='io.intercom.com.bumptech.glide.load.data']/class[@name='StreamAssetPathFetcher']"
+    path="/api/package[@name='io.intercom.com.bumptech.glide.load.data']/class[@name='StreamLocalUriFetcher']"
+    path="/api/package[@name='io.intercom.com.bumptech.glide.load.engine.bitmap_recycle']/class[@name='ByteArrayAdapter']"
+    path="/api/package[@name='io.intercom.com.bumptech.glide.load.engine.bitmap_recycle']/class[@name='ByteArrayAdapter']"
+    path="/api/package[@name='io.intercom.com.bumptech.glide.load.engine.bitmap_recycle']/class[@name='IntegerArrayAdapter']"
+    path="/api/package[@name='io.intercom.com.bumptech.glide.load.engine.bitmap_recycle']/class[@name='SizeConfigStrategy']"
+    path="/api/package[@name='io.intercom.com.bumptech.glide.load.engine']/class[@name='Engine']"
+     path="/api/package[@name='io.intercom.com.bumptech.glide.load.engine.executor']/class[@name='GlideExecutor']"
+    path="/api/package[@name='io.intercom.android.sdk.models']/class[@name='ConversationsResponse.Builder']/method[@name='build' and count(parameter)=0]"
+    path="/api/package[@name='io.intercom.com.bumptech.glide.load.model']/class[@name='AssetUriLoader']"
+    path="/api/package[@name='io.intercom.android.sdk.models']/class[@name='LinkResponse']"
+    path="/api/package[@name='io.intercom.com.bumptech.glide.load.model']/class[@name='ByteArrayLoader']"
+    path="/api/package[@name='io.intercom.okhttp3.internal.ws']/class[@name='RealWebSocket']"
+    path="/api/package[@name='io.intercom.com.bumptech.glide.load.model']/class[@name='DataUrlLoader']"
+    path="/api/package[@name='io.intercom.com.bumptech.glide.load.model']/class[@name='FileLoader']"
+    path="/api/package[@name='io.intercom.android.sdk.models']/class[@name='UsersResponse']"
+    path="/api/package[@name='io.intercom.android.sdk.nexus']/class[@name='NexusClient']"
+    path="/api/package[@name='io.intercom.com.bumptech.glide.load.model']/class[@name='ResourceLoader']"
+    path="/api/package[@name='io.intercom.com.bumptech.glide.load.model.stream']/class[@name='BaseGlideUrlLoader']"
+    path="/api/package[@name='io.intercom.com.bumptech.glide.load.model']/class[@name='StringLoader']"
+    path="/api/package[@name='io.intercom.com.bumptech.glide.load.model']/class[@name='UriLoader']"
+    path="/api/package[@name='io.intercom.com.bumptech.glide.module']/class[@name='AppGlideModule']"
+    path="/api/package[@name='io.intercom.com.bumptech.glide.module']/class[@name='LibraryGlideModule']"
+    path="/api/package[@name='io.intercom.com.bumptech.glide.module']/interface[@name='GlideModule']"
+    -->
+    <!-- <remove-node path="/api/package[@name='io.intercom.com.bumptech.glide']" />
+    <remove-node path="/api/package[@name='io.intercom.okhttp3.internal']" />
+    <remove-node path="/api/package[@name='io.intercom.okhttp3.internal.http']" />
+    <remove-node path="/api/package[@name='io.intercom.android.sdk.nexus']" />
+    <remove-node path="/api/package[@name='io.intercom.android.sdk.store']" />
+    <remove-node path="/api/package[@name='io.intercom.com.bumptech.glide.load.data']" />
+    <remove-node path="/api/package[@name='io.intercom.com.bumptech.glide.load.engine']" />
+    <remove-node path="/api/package[@name='io.intercom.com.bumptech.glide.load.model']" />
+    <remove-node path="/api/package[@name='io.intercom.com.bumptech.glide.load.engine.bitmap_recycle']" />
+    <remove-node path="/api/package[@name='io.intercom.android.sdk.profile']" />
+    <remove-node path="/api/package[@name='io.intercom.android.sdk.models']" />
+    <remove-node path="/api/package[@name='io.intercom.com.bumptech.glide.request.target']" />
+    <remove-node path="/api/package[@name='io.intercom.com.google.gson.internal']" />
+    <remove-node path="/api/package[@name='io.intercom.com.google.gson.internal.bind']" />
+    <remove-node path="/api/package[@name='io.intercom.com.squareup.otto']" />
+    <remove-node path="/api/package[@name='io.intercom.okio']" />
+    <remove-node path="/api/package[@name='io.intercom.com.bumptech.glide.request.animation']" />
+    <remove-node path="/api/package[@name='io.intercom.com.google.gson']" />
+    <remove-node path="/api/package[@name='io.intercom.com.bumptech.glide.load.data.mediastore']/class[@name='ThumbFetcher.ImageThumbnailQuery']" />
+    <remove-node path="/api/package[@name='io.intercom.com.bumptech.glide.load.data.mediastore']/class[@name='ThumbFetcher']" />
+    <remove-node path="/api/package[@name='io.intercom.com.bumptech.glide.load.engine.executor']/class[@name='GlideExecutor']" />
+    <remove-node path="/api/package[@name='io.intercom.com.bumptech.glide.request.transition']/class[@name='BitmapTransitionFactory']" />
+    <remove-node path="/api/package[@name='com.intercom.composer.input.iconbar']/class[@name='InputClickedListener']" /> -->
+</metadata>
