@@ -31,6 +31,7 @@
     <remove-node path="/api/package[@name='io.intercom.com.bumptech.glide.load.data.mediastore']/class[@name='ThumbFetcher.ImageThumbnailQuery']" />
     <remove-node path="/api/package[@name='io.intercom.com.bumptech.glide.request.transition']/class[@name='BitmapTransitionFactory']" />
     <remove-node path="/api/package[@name='io.intercom.com.bumptech.glide.load.data.mediastore']/class[@name='ThumbFetcher']" />
+    <remove-node path="/api/package[@name='com.intercom.composer.input.iconbar']/class[@name='InputClickedListener']" />
     <!--
     path="/api/package[@name='io.intercom.okio']/class[@name='Buffer']"
     path="/api/package[@name='io.intercom.okio']/class[@name='ByteString']"

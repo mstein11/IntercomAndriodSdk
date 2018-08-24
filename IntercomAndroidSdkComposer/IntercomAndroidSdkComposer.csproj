@@ -9,7 +9,7 @@
     <OutputType>Library</OutputType>
     <RootNamespace>IntercomAndroidSdkComposer</RootNamespace>
     <AssemblyName>IntercomAndroidSdkComposer</AssemblyName>
-    <TargetFrameworkVersion>v8.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v9.0</TargetFrameworkVersion>
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
     <AndroidUseLatestPlatformSdk>true</AndroidUseLatestPlatformSdk>

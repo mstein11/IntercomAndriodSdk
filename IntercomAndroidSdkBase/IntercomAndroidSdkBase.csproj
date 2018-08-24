@@ -9,14 +9,14 @@
     <OutputType>Library</OutputType>
     <RootNamespace>IntercomAndroidSdkBase</RootNamespace>
     <AssemblyName>IntercomAndroidSdkBase</AssemblyName>
-    <TargetFrameworkVersion>v8.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v9.0</TargetFrameworkVersion>
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
     <AndroidUseLatestPlatformSdk>true</AndroidUseLatestPlatformSdk>
     <AndroidClassParser>class-parse</AndroidClassParser>
     <PackOnBuild>true</PackOnBuild>
     <PackageId>de.mariusstein.AndroidIntercomSdk</PackageId>
-    <PackageVersion>5.0.1</PackageVersion>
+    <PackageVersion>5.0.1.2</PackageVersion>
     <Authors>Marius Stein</Authors>
     <Description>Xamarin Android Bindings to the Intercom Android SDK</Description>
   </PropertyGroup>

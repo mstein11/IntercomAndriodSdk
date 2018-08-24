@@ -10,5 +10,10 @@
     <remove-node path="/api/package[@name='com.intercom.composer.animation']/class[@name='HideSendButtonAnimatorListener']" />
     <remove-node path="/api/package[@name='com.intercom.composer.animation']/class[@name='ShowSendButtonAnimatorListener']" />
     <remove-node path="/api/package[@name='com.intercom.composer.keyboard']/class[@name='KeyboardHelper']" />
-    <remove-node path="/api/package[@name='com.intercom.composer.input.iconbar']/class[@name='IInputClickedListener']" />
+    <add-node path="/api/package[@name='com.intercom.composer.input.iconbar']/interface[@name='InputClickedListener']">
+        <method abstract="true" deprecated="not deprecated" final="false" name="onInputClicked" native="false" return="void" static="false" synchronized="false" visibility="public">
+            <parameter name="paramViewHolder" type="RecyclerView.ViewHolder">
+            </parameter>
+        </method>
+    </add-node>
 </metadata>
